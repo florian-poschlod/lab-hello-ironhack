@@ -1,0 +1,46 @@
+:root {
+  --color-dark-bg: black;
+  --color-light-bg: white
+}
+
+#landing {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+.text-big-white {
+  color: white;
+}
+
+/* Layout */
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+nav {
+  background-color: var(--color-dark-bg);
+}
+
+#article-1 {
+  background-color: var(--color-dark-bg);
+}
+
+#article-2 {
+  background-color: var(--color-light-bg);
+}
+
+.info-box {
+  width: 25%;
+}
